@@ -1,12 +1,11 @@
 # FileWatcherService c# 
-Windows Service that moves files in specified folder to desired subfolders (by formats specified for each sub-folder).
-The app also has GUI app by which user can change  folder to watch, subfolders names and formats to include to each subfolders. 
+Windows Service that moves files in specified folder to desired sub folders (by formats specified for each sub-folder).
+The app also has GUI app by which user can change  folder to watch, sub folders names and formats to include to each sub folders. 
 
-# Logic is the following: Hourly it reads all files names. and looks for for each formats (specified for subfolders)
-# And moves to destined subfolders. The Service inspects specified folder hourly.
+Logic is the following: Hourly it reads all files names. and looks for each format (specified for sub folders in .ini file) and moves them to destined sub folders. The Service inspects specified folder hourly.
 
 
-The app has Windows Service, Desktop app, and shared library to read\write ini file for parameters. 
+The app has Windows Service, Desktop app, and shared library to read\write .ini file for parameters. 
 
 FolderWatcher.ini file structure:
 
